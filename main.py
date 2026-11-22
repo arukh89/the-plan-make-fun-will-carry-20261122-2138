@@ -1,6 +1,8 @@
 """Entry for make.fun bounty the-plan-make-fun-will-carry-20261122-2138.
 
-Writes the plan (one text, 280 characters) to /output/entry.txt.
+Writes the plan (one text, exactly 280 characters) to /output/entry.txt.
+The output path defaults to /output/entry.txt but can be overridden with
+the ENTRY_OUTPUT environment variable.
 Stdlib only, no network, deterministic.
 """
 
